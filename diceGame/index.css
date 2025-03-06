@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+ }
+ #winner{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(64, 184, 132);
+    margin: 10px;
+ }
+ h3{
+    color: rgb(64, 184, 132);
+ }
+ button{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(64, 184, 132);
+    background-color: rgb(138, 80, 80);
+    border: 2px solid rgb(64, 184, 132);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+ }
+ #reset{
+    visibility: hidden;
+ }
+ .hidden{
+    display: none;
+ }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background-color: rgb(94, 94, 94);
+}
+#flag1,#flag2{
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+    visibility: hidden;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
