@@ -1,0 +1,64 @@
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(4, 4, 4);
+}
+h2{
+    color: white;
+}
+button:active{
+    transform: scale(0.95);
+    background-color: rgb(255, 254, 254);
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#scorecard{
+    font-size: 20px;
+    font-weight: bold;
+    visibility: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+} 
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.flash {
+    background-color: rgba(255, 255, 255, 0.7); /* Light flash effect */
+    box-shadow: 0 0 20px white; /* Glow effect */
+    transition: background-color 0.2s ease-in-out;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+#highscore, #score{
+    visibility: hidden;
+    /* display: none; */
+    color: white;
+}
+.h3{
+    color: white;
+    visibility: hidden;
+}
